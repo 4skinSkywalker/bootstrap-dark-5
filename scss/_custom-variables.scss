@@ -5,9 +5,12 @@
 // ███████╗██║╚██████╔╝██║  ██║   ██║   
 // ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
 // start theme-color-variables
-$body-color: #4d4d4d;
+$body-bg: #eeeee1;
+$body-color: #444;
 $primary: #ff6400;
 $secondary: #769fff;
+$light: #fffff1;
+$dark: #222;
 // end theme-color-variables
 
 // start border-radius-variables
@@ -22,11 +25,11 @@ $input-border-color: darken($primary, 5%);
 
 // start form-check-variables
 $form-check-input-width: 1.5em;
-$form-check-input-bg: #222;
+$form-check-input-bg: $dark;
 // end form-check-variables
 
 // start form-switch-variables
-$form-switch-color: #fff;
+$form-switch-color: $light;
 $form-switch-width: 3em;
 // end form-switch-variables
 
