@@ -1,10 +1,10 @@
 /*!
- * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Bootstrap v5.x.x (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  *
- * Bootstrap-Dark-plugin v1.1.3 (https://vinorodrigues.github.io/bootstrap-dark-5/)
+ * Bootstrap-Dark-plugin (https://vinorodrigues.github.io/bootstrap-dark-5/)
  * Copyright 2020-2021 Vino Rodrigues
  * This version is a dual color theme, but as a plugin
  * Include both bootstrap.css and this file and darkmode is optioned in by a
@@ -136,9 +136,6 @@
     --bs-table-hover-color: #e1e1e1;
     --bs-table-hover-bg: rgba(250, 250, 250, 0.075);
   }
-  .table > :not(:first-child) {
-    border-top: 2px solid currentColor;
-  }
 
   .table-primary {
     --bs-table-color: #fff;
@@ -267,27 +264,16 @@
     border-color: #9badbf;
     box-shadow: 0 0 0 0.25rem rgba(55, 90, 127, 0.25);
   }
-  .form-control::-moz-placeholder {
-    color: #5a5a5a;
-  }
   .form-control::placeholder {
     color: #5a5a5a;
   }
   .form-control:disabled, .form-control[readonly] {
     background-color: #222;
   }
-  .form-control::-webkit-file-upload-button {
-    color: #b1b1b1;
-    background-color: #3b3b3b;
-    border-color: inherit;
-  }
   .form-control::file-selector-button {
     color: #b1b1b1;
     background-color: #3b3b3b;
     border-color: inherit;
-  }
-  .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
-    background-color: #383838;
   }
   .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
     background-color: #383838;
@@ -411,15 +397,8 @@
     background-color: #7e7e7e;
   }
 
-  .form-floating > .form-control::-moz-placeholder {
-    color: transparent;
-  }
-
   .form-floating > .form-control::placeholder {
     color: transparent;
-  }
-  .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label {
-    opacity: 0.65;
   }
   .form-floating > .form-control:focus ~ label,
 .form-floating > .form-control:not(:placeholder-shown) ~ label,
@@ -1719,19 +1698,12 @@
     opacity: 0.5;
   }
 
-  @-webkit-keyframes placeholder-glow {
-    50% {
-      opacity: 0.2;
-    }
-  }
-
   @keyframes placeholder-glow {
     50% {
       opacity: 0.2;
     }
   }
   .placeholder-wave {
-    -webkit-mask-image: linear-gradient(130deg, #fafafa 55%, rgba(255, 255, 255, 0.8) 75%, #fafafa 95%);
     mask-image: linear-gradient(130deg, #fafafa 55%, rgba(255, 255, 255, 0.8) 75%, #fafafa 95%);
   }
 
@@ -1882,11 +1854,6 @@
 
   .bg-black {
     background-color: #111 !important;
-  }
-
-  body::-moz-selection {
-    color: #cfcfcf;
-    background: rgba(23, 162, 184, 0.5);
   }
 
   body::selection {

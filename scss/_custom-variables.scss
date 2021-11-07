@@ -1,0 +1,46 @@
+// ██╗     ██╗ ██████╗ ██╗  ██╗████████╗
+// ██║     ██║██╔════╝ ██║  ██║╚══██╔══╝
+// ██║     ██║██║  ███╗███████║   ██║   
+// ██║     ██║██║   ██║██╔══██║   ██║   
+// ███████╗██║╚██████╔╝██║  ██║   ██║   
+// ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+// start theme-color-variables
+$body-color: #4d4d4d;
+$primary: #ff6400;
+$secondary: #769fff;
+// end theme-color-variables
+
+// start border-radius-variables
+$border-radius: 1.2rem;
+$border-radius-sm: .975rem;
+$border-radius-lg: 1.5rem;
+// end border-radius-variables
+
+// start form-input-variables
+$input-border-color: darken($primary, 5%);
+// end form-input-variables
+
+// start form-check-variables
+$form-check-input-width: 1.5em;
+$form-check-input-bg: #222;
+// end form-check-variables
+
+// start form-switch-variables
+$form-switch-color: #fff;
+$form-switch-width: 3em;
+// end form-switch-variables
+
+// ██████╗  █████╗ ██████╗ ██╗  ██╗
+// ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝
+// ██║  ██║███████║██████╔╝█████╔╝ 
+// ██║  ██║██╔══██║██╔══██╗██╔═██╗ 
+// ██████╔╝██║  ██║██║  ██║██║  ██╗
+// ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+// start theme-color-variables
+$primary-alt: darken($primary, 5%);
+$secondary-alt: darken($secondary, 5%);
+// end theme-color-variables
+
+// start form-input-variables
+$input-border-color-alt: darken($input-border-color, 5%);
+// end form-input-variables

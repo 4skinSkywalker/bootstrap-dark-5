@@ -7,7 +7,7 @@
     "start": "npm-run-all --parallel serve watch",
     "test": "npm-run-all lint",
     "lint": "npm-run-all --parallel css-lint js-lint",
-    "dist": "npm-run-all --parallel css js docs",
+    "dist": "npm-run-all --parallel css js",
     "build": "echo \"Deprecated: Use `npm run dist`\" && npm-run-all dist",
     "DISABLED_serve": "browser-sync start --server --files [\"dist/css/*.css\", \"dist/js/*.ts\", \"examples/*.*\", \"*.html\"]",
     "serve": "browser-sync start --server",
