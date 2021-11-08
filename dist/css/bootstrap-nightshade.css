@@ -2456,18 +2456,18 @@ textarea.form-control-lg {
 .form-check {
   display: block;
   min-height: 1.5rem;
-  padding-left: 2em;
+  padding-left: 1.75em;
   margin-bottom: 0.125rem;
 }
 .form-check .form-check-input {
   float: left;
-  margin-left: -2em;
+  margin-left: -1.75em;
 }
 
 .form-check-input {
-  width: 1.5em;
-  height: 1.5em;
-  margin-top: 0em;
+  width: 1.25em;
+  height: 1.25em;
+  margin-top: 0.125em;
   vertical-align: top;
   background-color: #222;
   background-repeat: no-repeat;
@@ -2516,14 +2516,14 @@ textarea.form-control-lg {
 }
 
 .form-switch {
-  padding-left: 3.5em;
+  padding-left: 3em;
 }
 .form-switch .form-check-input {
-  width: 3em;
-  margin-left: -3.5em;
+  width: 2.5em;
+  margin-left: -3em;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
   background-position: left center;
-  border-radius: 3em;
+  border-radius: 2.5em;
   transition: background-position 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
